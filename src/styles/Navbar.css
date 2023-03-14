@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1.5rem 4rem;
+    margin: 2rem 4.5rem;
+  
+}
+.navbar .logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .navbar .nav-links {
     list-style: none;
     display: flex;
     gap: 4rem;
+    font-family: 'Sono', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
 }
