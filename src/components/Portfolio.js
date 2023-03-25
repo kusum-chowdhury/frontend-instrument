@@ -1,11 +1,12 @@
 import React from 'react'
 import '../styles/Portfolio.css'
+import { HiArrowLongRight } from "react-icons/hi2"
 
 function Portfolio() {
   return (
-    <div>
+    <div className='porfolio'>
         <p>Explore some of our most recent work</p>
-        <button>Explore our work</button>
+        <button>Our work <HiArrowLongRight /> </button>
     </div>
   )
 }
