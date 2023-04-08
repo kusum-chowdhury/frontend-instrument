@@ -25,6 +25,32 @@
     
 }
 
+.box img{
+    width: 800px;
+    height: 500px;
+}
+
+.portfolio-img-text {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.subtext-portfolio{
+    display: flex;
+    /* width: 500px; */
+    justify-content: space-between;
+}
+.subtext-portfolio p {
+   font-size: 2rem;
+   width: auto;
+   line-height: normal;
+}
+.subtext-portfolio div {
+    width: 500px;
+}
+
 .porfolio button svg {
     margin-left: .5rem;
 }
