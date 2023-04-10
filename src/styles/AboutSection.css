@@ -32,18 +32,8 @@ margin: 10rem 0;
  max-width: 500px;
  line-height: 3rem;
 }
-.text button {
-    padding: 1.2rem 2rem ;
-    border-radius: 30px;
-    border: none;
-    font-family: 'Sono', sans-serif;
-    font-weight: bold;
-    margin-top: 2.5rem;
-}
+
 .text button:hover {
  background-color: #999999;
  transition: 0.3s;
-}
-.text button svg {
-    margin-left: .5rem;
 }

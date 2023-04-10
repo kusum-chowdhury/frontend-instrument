@@ -13,9 +13,11 @@ img {
 .logos {
     margin-top: 7rem;
     text-align: center;
+    margin-bottom: 5rem;
+    display: block;
 }
 
-.logo{
+.co-logo{
     visibility: hidden;
     left: 0;
     opacity: 0;

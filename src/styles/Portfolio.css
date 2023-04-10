@@ -16,14 +16,7 @@
         width: 55%;
         text-align: center;
     }
-.porfolio button {
-    padding: 1.2rem 2rem ;
-    border-radius: 30px;
-    border: none;
-    font-family: 'Sono', sans-serif;
-    font-weight: bold;
-    
-}
+
 
 .box img{
     width: 800px;
@@ -51,6 +44,3 @@
     width: 500px;
 }
 
-.porfolio button svg {
-    margin-left: .5rem;
-}

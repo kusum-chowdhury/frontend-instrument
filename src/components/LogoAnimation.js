@@ -4,7 +4,7 @@ import '../styles/LogoAnimation.css'
 
 function LogoAnimation() {
     useEffect(() => {
-        const logoBoxes = document.querySelectorAll('.logo');
+        const logoBoxes = document.querySelectorAll('.co-logo');
         let activeIndex = 0;
     
         setInterval(() => {
@@ -16,12 +16,9 @@ function LogoAnimation() {
     
 
   return (
- 
-
-
     <div className='logos'>
         <div className='logobox'>
-            <div className='img logo active'>
+            <div className='img co-logo active'>
                 
             <img src='https://images.prismic.io/instrument-v5/2bcc43c1-4e9f-4eea-9f9d-5110882ea43f_levis.png?auto=compress,format&w=640&dpr=1' />
             <img src='https://images.prismic.io/instrument-v5/94dc684b-ad1d-4edc-a9a7-8c5874451a1e_youtube.png?auto=compress,format&w=640&dpr=1' />
@@ -29,7 +26,7 @@ function LogoAnimation() {
             </div>
             </div>
             <div  className='logobox'>
-            <div className='img logo'>
+            <div className='img co-logo'>
                 
                 <img src='https://images.prismic.io/instrument-v5/0111080c-93e6-4eec-bdbf-23d15c792dbe_new-knowledge.png?auto=compress,format&w=640&dpr=1' />
                 <img src='https://images.prismic.io/instrument-v5/979a9dff-e6a1-4a2a-8b52-8fd931d66199_netflix.png?auto=compress,format&w=640&dpr=1' />
@@ -37,7 +34,7 @@ function LogoAnimation() {
                 </div>
             </div>
             <div className='logobox'>
-            <div className='img logo'>
+            <div className='img co-logo'>
                 
                 <img src='https://images.prismic.io/instrument-v5/6b8ceeea-94fb-4f22-94eb-7a9c8856601f_xbox.png?auto=compress,format&w=640&dpr=1' />
                 <img src='https://images.prismic.io/instrument-v5/a00f63c1-2925-4338-9bd7-33d84ecfddc0_facebook.png?auto=compress,format&w=640&dpr=1' />

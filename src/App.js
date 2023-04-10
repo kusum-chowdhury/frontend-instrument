@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import Portfolio from "./components/Portfolio";
 import LogoAnimation from "./components/LogoAnimation";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <AboutSection />
     <Portfolio />
     <LogoAnimation />
+    <Contact />
     </div>
   );
 }
